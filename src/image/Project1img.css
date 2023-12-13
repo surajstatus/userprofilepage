@@ -1,0 +1,6 @@
+.slide-frame {
+    overflow: hidden;
+    width: 95%;
+    height: 100%;
+    border: 1px solid white;
+}

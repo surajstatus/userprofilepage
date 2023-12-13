@@ -1,0 +1,158 @@
+.c-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.c-box {
+    width: 85%;
+    min-height: 450px;
+    background-color: rgba(190, 203, 215, 0.208);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.consec1 {
+    background-color: rgb(221, 221, 221);
+    width: 63%;
+    padding: 20px 10px;
+}
+
+.consec2 {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.conin1 {
+    background: rgb(17, 17, 52);
+    width: 100%;
+    height: 55%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.up-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    flex-wrap: wrap;
+}
+
+.text-icon {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 5%;
+}
+
+
+.down-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.conin2 {
+    width: 100%;
+    height: 43%;
+}
+
+.icon-head {
+    font-size: 1.5em;
+    padding: 20px 10px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.form-text {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.form-text span {
+    color: rgb(0, 24, 122);
+    font-size: 1.3em;
+}
+
+.tel {
+    text-decoration: none;
+    border: 3px solid black;
+    background-color: transparent;
+    border-radius: 15px 50px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgb(169, 1, 54);
+}
+
+.form-text input {
+    margin: 10px 0;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: rgb(169, 1, 54);
+    border: 3px solid black;
+    background-color: transparent;
+    border-radius: 15px 50px;
+    border-top: none;
+    border-bottom: 1px solid black;
+}
+
+.form-text input[type='text'], .form-text input[type='email'], .form-text input[type='tel'] {
+    padding-left: 15px;
+}
+
+.message {
+    width: 100%;
+}
+
+.message textarea {
+    height: 150px;
+    outline: none;
+    resize: none;
+}
+
+.send button {
+    background-color: rgb(0, 24, 122);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    cursor: pointer;
+}

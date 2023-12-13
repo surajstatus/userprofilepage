@@ -1,0 +1,60 @@
+.headline {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    padding: 20px;
+    text-shadow: 3px 1px 5px rgb(127, 116, 116);
+}
+
+.p-main {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.p-content {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid white;
+    min-height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.p-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.p-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic {
+    font-size: 2em;
+    text-shadow: 3px 1px 5px rgb(127, 116, 116);
+    border-bottom: 1px solid white;
+}
+
+.info-1 {
+    
+}
+
+.info-m {
+    font-size: 1.5em;
+}
+
+.src-code {
+    font-size: 1.5em;
+}
